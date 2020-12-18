@@ -1,0 +1,666 @@
+
+
+body 
+{
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+
+html 
+{
+    overflow-x: hidden;
+}
+
+section 
+{
+    display: block;
+    justify-content: center;
+    align-content: center;
+}
+
+img 
+{
+    height: auto;
+}
+
+a 
+{
+    text-decoration: none;
+    color: black;
+}
+
+div 
+{
+    display: block;
+}
+h3
+{
+    font-size: 13px ;
+}
+h4
+{
+    font: bold;
+}
+p
+{
+    font-family: sans-serif;
+}
+#bloc_page
+{
+    width: 1350px;
+    margin: auto;
+}
+
+#menu
+{
+    display: inline;
+    width: auto;
+    
+}
+.inscription
+{
+    display: inline;
+    padding-top: 16px;
+    
+}
+/*header*/
+
+
+
+header {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 20px;
+    margin-left: 45px;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    text-align: right;
+    text-decoration: none;
+
+}
+
+#menu {
+    display: flex;
+    padding-right: 150px;
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav a {
+    font-size: 1.0em;
+    color: #0065fc;
+    padding-bottom: 9px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #0065fc;
+    border-top: #0065fc solid;
+    padding-top: 1em;
+}
+/*bouton_recherche*/
+.bouton
+{
+    color: white;
+    background-color: #0065fc;
+    font-size: 15px;
+    padding: 12px 11px 11px 11px;
+    border-radius: 0px 10px 10px 0px;
+    border: 0px;
+}
+.fas.fa-map-marker-alt
+{
+    border: #f2f2f2 solid;
+    background-color: #f2f2f2;
+    border-radius: 15px 0px 0px 15px;
+    padding: 9px;
+    
+}
+.zone_recherche
+{
+    border: #d9d9d9;
+    border-top: #d9d9d9 solid 1px;
+    border-bottom:#d9d9d9 solid 1px;
+    font-size: 15px;
+    padding: 10px 11px 9px 10px;
+    margin-left: -5px;
+    margin-right: -25px;
+}
+.millieu
+{
+    display: inline;
+    
+}
+.fas.fa-search
+{
+    color: white;
+}
+/* filtres*/
+
+.blocfiltre {
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+}
+
+.titre_filtre {
+    display: inline;
+    padding-left: 60px;
+    padding-right: 25px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    border-top: solid rgba(217, 217, 217);
+    border-bottom: solid rgba(217, 217, 217);
+    border-right: solid rgba(217, 217, 217);
+    border-radius:30px;
+
+}
+.icone {
+    display: flex;
+    padding: 0px 0px 0px 0px;
+    margin: 10px -45px 0px 0px;
+    align-content: center;
+    text-align: center;
+    border-radius: 50px;
+    border-color: rgba(217, 217, 217);
+
+}
+.boxfiltres {
+    display: flex;
+    margin: 30px 10px 30px 10px;
+    padding-left: 30px;
+}
+.fas.fa-money-bill-wave,.fas.fa-child,.fas.fa-heart,.fas.fa-dog {
+    display: inline;
+    color: #0065fc;
+    border: solid 1px #DEEBFF;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    width: 43px;
+    height: 30px;
+    padding-top: 12px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 7px;
+    margin-top: -7px;
+}
+
+.icone {
+    transform: scale(1);
+    transition: 400ms;
+    margin-left: 15px;
+}
+
+.titre_filtre:hover {
+    transform: scale(1.08);
+    background-color: #0065FC;
+}
+
+
+.fa-info {
+    color: #0065fc;
+    background-color: white;
+    border-radius: 500px;
+    border-color: rgba(217, 217, 217);
+    padding-left: 7px;
+    margin-bottom: 20px;
+    width: 11px;
+    height: 19px;
+    border: solid grey 1px;
+}
+.titre_info
+{
+    font-size: 18px;
+    font-family: sans-serif ;
+    color: grey;
+    
+}
+
+
+
+
+
+
+/* hebergements*/
+#stars {
+    color: #0065FC;
+}
+
+#no_stars {
+    color: #d9d9d9;
+}
+.fas.fa-star.grey-star
+{
+    color: #d9d9d9;
+}
+.fas.fa-star
+{
+    color: #0065fc;
+}
+#conteneur {
+    display: flex;
+    justify-content: space-around;
+    
+    
+
+}
+
+.hebergt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-shadow: 15px black;
+    padding: 0px 0px 0px 0px;
+   
+    
+    
+}
+
+.logo_hot {
+    object-fit: cover;
+    box-shadow: 15px black;
+    border-radius: 10px 10px 0px 0px;
+    height: 120px;
+    margin: 2px;
+    width: 215px;
+    padding: 5px;
+
+}
+
+.lienhotel {
+    display: block;
+    background-color: white;
+    align-content: center;
+    justify-content: center;
+    border-radius: 15px;
+    
+    margin-bottom: 20px;
+    transform: scale(1);
+    transition: 400ms;
+}
+
+
+.lienhotel:hover {
+    transform: scale(1.08);
+}
+.conteneur_1 {
+    display: block;
+    background-color: #f2f2f2;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-right: 0px;
+    padding: 15px;
+    max-width: 800px;
+    border-radius: 20px;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.nomhotel {
+    margin: 10px 10px 10px 10px;
+    padding: bottom 10px;
+    font-size: 20px;
+
+}
+
+.nomhbgt {
+    font-size: 15px;
+    padding: 5px;
+    margin: 0px;
+    margin-left: 5px;
+}
+
+.tarif {
+    font-size: 10px arial;
+    padding: 5px;
+    margin: 0px;
+    margin-left: 5px;
+}
+
+.etoiles {
+    font-size: 10px arial;
+    padding: 5px;
+    margin: 0px;
+    margin-left: 5px;
+}
+
+.Afficher_Plus {
+    padding-bottom: 1px;
+    display: block;
+}
+.nom_afficher
+{
+    font-size: 20px;
+}
+.hebergement_cote
+{
+    max-width: 100%;
+}
+/* les+populaires*/
+
+.titre_les_plus-populaires
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+   
+
+}
+
+.conteneur_2 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    background-color: #F2F2F2;
+    max-width: 800px;
+    justify-content: center;
+    align-content: center;
+    padding: 0 25px 25px 25px;
+    
+}
+
+
+
+.descriphotelpop {
+
+    flex-direction: column;
+   
+}
+
+.photo_popu {
+    max-width: 100px;
+    border-radius: 16px 0px 0px 16px;
+    object-fit: cover;
+
+}
+
+.nomhbgtpop {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    font-size: 16px;
+    display: flex;
+    
+
+}
+
+.tarifpop {
+    margin: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+
+
+}
+
+.etoilespop {
+    margin-bottom: 0px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.descriphotelpop {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    max-width: 450px;
+    font-size: 14px;
+    
+}
+
+.heberg_cote1 {
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 1px;
+    border: solid white 5px;
+    max-width: 768px;
+    margin-bottom: 40px;
+    
+    transform: scale(1);
+    transition: 400ms;
+    
+
+    height: 110px;
+    background-color: white;
+    flex-wrap: nowrap;
+
+}
+.heberg_cote1:hover {
+    transform: scale(1.08);
+}
+
+
+
+/*Activités */
+#conteneur_3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding-top:15px;
+    margin-bottom: 40px;
+}
+
+.titre_act {
+
+    margin: 25px 25px 25px 25px;
+}
+
+.nomacti {
+    margin-left: 10px;
+    vertical-align: center;
+}
+
+.activ_1 {
+   
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 760px
+    
+}
+.activ_2
+{
+    margin: 1px;
+
+  width: 350px;
+     
+    
+}
+.activ_1:hover {
+    transform: scale(1.08);
+}
+
+.verti_marseille_1 {
+    display: block;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px #F2F2F2;
+    margin-top: 0px;
+    height: 450px;
+    transform: scale(1);
+    transition: 400ms;
+    font-size: 13px;
+   
+}
+.verti_marseille_1:hover {
+    transform: scale(1.08);
+}
+
+.nomacti {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 5px;
+    font-weight: bold;
+    
+
+}
+
+.activ_3 {
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 760px
+
+}
+.activ_4
+{
+  max-width: 760px;
+}
+
+.hori_marseille_1 {
+    display: block;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px #F2F2F2;
+    margin-bottom: 20px;
+    font-size: 13px;
+    height: 250px;
+    transform: scale(1);
+    transition: 400ms;
+    
+}
+.hori_marseille_1:hover {
+    transform: scale(1.08);
+}
+
+.hori_marseille_2 {
+    display: block;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px #F2F2F2;
+    margin-bottom: 0px;
+    height: 160px;
+    font-size: 13px;
+    transform: scale(1);
+    transition: 400ms;
+    
+}
+.hori_marseille_2:hover {
+    transform: scale(1.08);
+}
+
+.verti_marseille_3 {
+    display: block;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px #F2F2F2;
+    margin-bottom: 0px;
+    font-size: 13px;
+    transform: scale(1);
+    transition: 600ms;
+    padding-bottom:2px ;
+}
+.verti_marseille_3:hover {
+    transform: scale(1.08);
+}
+
+.hori_marseille_4 {
+    background-color: white;
+    display: flex;
+    box-shadow: 3px 3px 3px 3px #F2F2F2;
+    
+    border-radius: 20px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    font-size: 13px;
+    transform: scale(1);
+    transition: 600ms;
+}
+.hori_marseille_4:hover {
+    transform: scale(1.08);
+}
+
+.hori_marseille_5 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 3px 3px 3px #F2F2F2;
+    border-radius: 20px;
+    font-size: 13px;
+    justify-content: space-between;
+    transform: scale(1);
+    transition: 600ms;
+    
+}
+.hori_marseille_5:hover {
+    transform: scale(1.08);
+}
+
+.horizontal_1 {
+    width: 100%;
+    height: 190px;
+    box-shadow: 10px 10px 30px 30px #F2F2F2;
+    object-fit: cover;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.horizontal_2 {
+    width: 100%;
+    height: 100px;
+    box-shadow: 10px 10px 30px 30px #F2F2F2;
+    object-fit: cover;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.vertical {
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+
+}
+
+
+
+
+/*footer */
+footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background: #f2f2f2;
+    
+    
+}
+
+#a_propos {
+
+
+    
+    margin-left: 50px;
+}
+
+
+#Nos_hebergements {
+
+   
+    margin-left: 50px;
+
+}
+
+#Assistance {
+
+    
+    margin-left: 0px;
+
+}
+
