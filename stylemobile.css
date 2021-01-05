@@ -20,10 +20,7 @@
     #bloc_page {
     width: auto;
     }
-    img 
-    {
-        max-width: 100%;
-    }
+
     section
     {
         align-content: center;
@@ -80,43 +77,41 @@
     {
         position: absolute;
         margin-top: 40px;
-        margin-left: -170px;
+        margin-left: -150px;
         padding-top: 10px;
         color: #0065fc;
         border-bottom: solid #0065fc;
         border-bottom-width: 5px;
         padding-left: 60px;
-        padding-right: 50px;
+        padding-right: 40px;
     }
     .Activites_menu
     {
         position: absolute;
-        padding: top 200px; ;
-        margin-left: 26px;
+        margin-left: 0px;
         margin-bottom: 0px;
         margin-top: 50px;
         border-bottom-width: 50px;
         color: grey;
         border-bottom: solid #F2F2F2;
         border-width: 5px;
-        padding-right: 70px;
-        padding-left: 55px;
+        padding-right:70px;
+        padding-left: 50px;
     }
     .inscription
     {
         position: absolute;
-        padding-top: -10px;
-        padding-bottom: -30px;
-        margin-left:350px ;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        margin-left:270px ;
     }    
     .logo_reservia
     {
-        margin-left: 10px;
+        margin-left: 100px;
     }
    .inscription
    {
        display: flex;
-       margin-bottom: 
    }
 /*bouton_recherche*/
 .recherche_ville
@@ -154,6 +149,7 @@
     display: flex;
     flex-direction: column;
     width: 80%;
+    flex-wrap: wrap;
 }
 .icone
 {
@@ -179,6 +175,7 @@
   }
   .conteneur_2 {
     display: flex;
+
   }
   .conteneur_1 {
     display: flex;
@@ -256,13 +253,9 @@
     align-items: center;   
   }
 .heberg_cote1 {
-    width: 90%;
+    margin-right: 5px;
   }
-.hebergement_cote
-  {
-    justify-content: center;
-    align-items: center;
-  }
+
 .plus_pop
   {
     margin-right: 15px;
@@ -273,8 +266,6 @@
     display: flex;
     flex-direction: column;
     background-color: white;
-    padding: 0;
-    margin: 0;
   }
 
 .conteneur 
@@ -293,15 +284,12 @@
 .lienhotel {   
     width: 100%;
     border: solid white;
-    box-shadow:10px 10px 10px 10px #F2F2F2;
+    box-shadow:5px 5px 5px 5px #F2F2F2;
   }
 .logo_hot {
     width: 96%;
   }
-.lienpop
-  {
-    width:100%;
-  }
+
 .nomhbgtpop
 {
     font-size: 21px;
