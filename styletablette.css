@@ -35,10 +35,8 @@
     header {
         display: flex;
         justify-content: center;
-        margin: auto;
         padding-bottom: 70px;
-        margin-left: -100px;
-        width: 100%;
+        margin-left: 0px;
     }
 
     main {
@@ -47,7 +45,6 @@
     }
 
     .liste_a_propos {
-
         flex-wrap: wrap;
         margin-right: 10px;
     }
@@ -157,7 +154,7 @@
     .boxfiltres {
         display: flex;
         flex-direction: column;
-        width: 80%;
+        max-width: 60%;
     }
 
     .icone {
@@ -167,89 +164,77 @@
         padding-bottom: 10px;
         padding-top: 10px;
     }
+
     /*activites*/
-    #conteneur_3 {
-        display: flex;
-        flex-direction: column;
-        padding: 0;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
+     #conteneur_3 {
+         display: flex;
+         flex-direction: column;
+         padding: 0;
+         align-content: center;
+         justify-content: center;
+         margin-left: 10px;
+         margin-right: 10px;
+     }
 
-    .conteneur_2 {
-        display: flex;
-    }
+     .conteneur_2 {
+         display: flex;
+     }
 
-    .conteneur_1 {
-        display: flex;
-        flex-direction: column;
-    }
+     .conteneur_1 {
+         display: flex;
+         flex-direction: column;
+     }
 
-    .verti_marseille_1 {
-        height: 160px;
-    }
+     .verti_marseille_1 {
+         height: 160px;
+     }
 
-    .vertical {
-        height: 100px;
-        width: 100%;
-    }
+     .vertical {
+         height: 100px;
+         width: 100%;
+     }
 
-    .activ_1 {
-        height: 0px;
-        margin-bottom: 180px;
-        width: 100%;
-    }
+     .activ_1 {
+         height: 0px;
+         margin-bottom: 180px;
+     }
 
-    .activ_2 {
-        width: 100%;
-        height: 100px;
-        margin-bottom: 240px;
-    }
+     .activ_2 {
+         width: 100%;
+         height: 100px;
+         margin-bottom: 265px;
+     }
 
-    .horizontal_1 {
-        height: 100px;
-        margin-bottom: 0;
-    }
+     .horizontal_1 {
+         height: 100px;
+         margin-bottom: 0;
+     }
 
-    .hori_marseille_2 {
-        margin-bottom: 70px;
-    }
+     .activ_3 {
+         margin-bottom: 15px;
+         width: 100%;
+         margin-right: 15px;
+     }
 
-    .hori_marseille_1 {
-        height: 100px;
-        margin-bottom: 70px;
-    }
+     .activ_4 {
+         height: 100px;
+     }
 
-    .activ_3 {
-        margin-bottom: 5px;
-        width: 100%;
-        margin-right: 15px;
-    }
+     .horizontal_1 {
+         width: 100%;
+     }
 
-    .verti_marseille_3 {
-        width: 100%;
-    }
+     .horizontal_2 {
+         width: 100%;
+     }
 
-    .activ_4 {
-        width: 100%;
-        height: 100px;
-    }
+     .hori_marseille_5 {
+         margin-top: 15px;
+     }
 
-    .horizontal_1 {
-        width: 100%;
-    }
-
-    .horizontal_2 {
-        width: 100%;
-    }
-
-    .hori_marseille_5 {
-        width: 100%;
-    }
-
-    .hori_marseille_4 {
-        margin-bottom: 10px;
-    }
+     .hori_marseille_4 {
+         margin-bottom: 10px;
+     }
 
     /*plus populaires*/
     .conteneur_2 {
@@ -282,7 +267,7 @@
         background-color: white;
         padding: 0;
         margin: 0;
-        
+
     }
 
     .conteneur {
@@ -306,7 +291,7 @@
     }
 
     .logo_hot {
-        width: 96%;
+        width: 98%;
     }
 
     .lienpop {
@@ -316,4 +301,8 @@
     .nomhbgtpop {
         font-size: 21px;
     }
+    .hebergt {
+        margin-left: 0px;
+        margin-right: 0px;
+      }
 }

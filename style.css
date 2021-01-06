@@ -1,50 +1,42 @@
-body 
-{
+body {
     font-family: "Raleway", Arial, Helvetica, sans-serif;
     justify-content: center;
 }
-html 
-{
+
+html {
     overflow-x: hidden;
 }
-section 
-{
-    display: block;
 
-}
-img 
-{
+img {
     height: auto;
 }
-a 
-{
+
+a {
     text-decoration: none;
     color: black;
 }
 
-h3
-{
-    font-size: 13px ;
+h3 {
+    font-size: 13px;
 }
-h4
-{
+
+h4 {
     font: bold;
 }
-p
-{
+
+p {
     font-family: sans-serif;
 }
-#bloc_page
-{
+
+#bloc_page {
     width: 1350px;
     margin: auto;
 }
 
-.inscription
-{
+.inscription {
     margin-top: 15px;
-    
 }
+
 /*header*/
 header {
     background: white;
@@ -54,32 +46,46 @@ header {
     padding-top: 20px;
     margin-left: 45px;
 }
+
 nav ul {
     list-style-type: none;
     display: flex;
     text-align: right;
     text-decoration: none;
 }
+
 #menu {
     display: flex;
     padding-right: 150px;
     margin-right: 5px;
 }
+
 nav li {
     margin-right: 60px;
 }
+
 nav a {
     font-size: 1.0em;
     color: #0065fc;
     text-decoration: none;
 }
-nav a:hover {
+
+.Activites_menu:hover {
     color: #0065fc;
     border-top: #0065fc solid;
+    padding-top: 15px;
+}
+.hebergement_menu:hover {
+    color: #0065fc;
+    border-top: #0065fc solid;
+    padding-top: 15px;
+}
+.Activites_menu
+{
+    color: black;
 }
 /*bouton_recherche*/
-.bouton
-{
+.bouton {
     color: white;
     background-color: #0065fc;
     font-size: 15px;
@@ -87,41 +93,43 @@ nav a:hover {
     border-radius: 0px 10px 10px 0px;
     border: 0px;
 }
-.fas.fa-map-marker-alt
-{
+
+.fas.fa-map-marker-alt {
     border: #f2f2f2 solid;
     background-color: #f2f2f2;
     border-radius: 15px 0px 0px 15px;
     padding: 9px;
 }
-.zone_recherche
-{
+
+.zone_recherche {
     border: #d9d9d9;
     border-top: #d9d9d9 solid 1px;
-    border-bottom:#d9d9d9 solid 1px;
+    border-bottom: #d9d9d9 solid 1px;
     font-size: 15px;
     padding: 10px 11px 9px 10px;
     margin-left: -5px;
     margin-right: -25px;
 }
-.millieu
-{
+
+.millieu {
     display: inline;
 }
-.fas.fa-search
-{
+
+.fas.fa-search {
     color: white;
 }
+
 /* filtres*/
-.titre_filtres
-{
+.titre_filtres {
     margin-top: 50px;
 }
+
 .blocfiltre {
     display: flex;
     padding: 15px;
     justify-content: space-around;
 }
+
 .titre_filtre {
     display: inline;
     padding-left: 60px;
@@ -131,22 +139,25 @@ nav a:hover {
     border-top: solid rgba(217, 217, 217);
     border-bottom: solid rgba(217, 217, 217);
     border-right: solid rgba(217, 217, 217);
-    border-radius:30px;
+    border-radius: 30px;
 }
+
 .icone {
     display: flex;
-    margin: 7px -50px 0px 0px;
+    margin: 7px -50px 0 0;
     align-content: center;
     text-align: center;
     border-radius: 50px;
     border-color: rgba(217, 217, 217);
 }
+
 .boxfiltres {
     display: flex;
     margin: 20px 10px 30px 10px;
     padding-left: 30px;
     flex-wrap: wrap;
 }
+
 .fas.fa-money-bill-wave,.fas.fa-child,.fas.fa-heart,.fas.fa-dog {
     display: inline;
     color: #0065fc;
@@ -160,17 +171,19 @@ nav a:hover {
     padding-right: 2px;
     padding-bottom: 7px;
     margin-top: -7px;
-
 }
+
 .icone {
     transform: scale(1);
     transition: 400ms;
     margin-left: 10px;
 }
+
 .titre_filtre:hover {
     transform: scale(1.08);
     background-color: #0065FC;
 }
+
 .fa-info {
     color: #0065fc;
     background-color: white;
@@ -182,37 +195,42 @@ nav a:hover {
     height: 19px;
     border: solid grey 1px;
 }
-.titre_info
-{
+
+.titre_info {
     font-size: 18px;
-    font-family: sans-serif ;
-    color: grey; 
+    font-family: sans-serif;
+    color: grey;
 }
+
 /* hebergements*/
 #stars {
     color: #0065FC;
 }
+
 #no_stars {
     color: #d9d9d9;
 }
-.fas.fa-star.grey-star
-{
+
+.fas.fa-star.grey-star {
     color: #d9d9d9;
 }
-.fas.fa-star
-{
+
+.fas.fa-star {
     color: #0065fc;
 }
+
 #conteneur {
     display: flex;
     justify-content: space-around;
 }
+
 .hebergt {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    margin: 10px;
+    margin-left: 45px;
 }
+
 .logo_hot {
     object-fit: cover;
     border-radius: 10px 10px 0px 0px;
@@ -221,76 +239,86 @@ nav a:hover {
     width: 215px;
     padding: 5px;
 }
+
 .lienhotel {
     background-color: white;
     border-radius: 15px;
-    
 }
+
 .conteneur_1 {
     background-color: #f2f2f2;
     flex-direction: column;
     margin-top: 5px;
     margin-right: 50px;
     padding: 15px 15px 0 15px;
-    border-radius: 20px; 
-    flex-wrap: wrap; 
+    border-radius: 20px;
+    flex-wrap: wrap;
 }
+
 .nomhotel {
     margin: 10px 10px 10px 10px;
     font-size: 20px;
 }
+
 .nomhbgt {
     font-size: 15px;
     padding: 5px;
     margin: 0px;
     margin-left: 5px;
 }
+
 .tarif {
     font-size: 10px;
     padding: 5px;
     margin: 0px;
     margin-left: 5px;
 }
+
 .etoiles {
     font-size: 15px;
     padding: 5px;
     margin: 0px;
     margin-left: 5px;
 }
+
 .Afficher_Plus {
     padding-bottom: 1px;
     margin-left: 5px;
     display: block;
 }
-.nom_afficher
-{
+
+.nom_afficher {
     font-size: 20px;
     margin-left: 5px;
 }
+
 /* les+populaires*/
-.titre_les_plus-populaires
-{
+.titre_les_plus-populaires {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 30px;
 }
+
 .conteneur_2 {
     display: flex;
     flex-direction: column;
     border-radius: 16px;
     background-color: #F2F2F2;
-    min-width: 400px;
-    padding: 10px 10px 0px 20px; 
+    min-width: 350px;
+    padding: 10px 10px 0px 20px;
 }
+
 .descriphotelpop {
-    flex-direction: column; 
+    flex-direction: column;
 }
+
 .photo_popu {
     max-width: 100px;
     border-radius: 16px 0px 0px 16px;
     object-fit: cover;
 }
+
 .nomhbgtpop {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -298,21 +326,25 @@ nav a:hover {
     font-size: 16px;
     display: flex;
 }
+
 .tarifpop {
     font-size: 14px;
     margin-left: 5px;
 }
+
 .etoilespop {
     margin-left: 5px;
 }
+
 .descriphotelpop {
     display: flex;
     flex-wrap: wrap;
     margin-top: 0px;
     margin-bottom: 0px;
     max-width: 450px;
-    font-size: 14px;   
+    font-size: 14px;
 }
+
 .heberg_cote1 {
     display: flex;
     border-radius: 15px;
@@ -322,50 +354,54 @@ nav a:hover {
     height: 110px;
     background-color: white;
 }
+
 /*Activités */
 #conteneur_3 {
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
-    padding-top:15px;
+    padding-top: 15px;
     margin-bottom: 40px;
 }
+
 .titre_act {
-    margin:25px;
+    margin: 25px;
 }
+
 .nomacti {
     margin-left: 10px;
     vertical-align: center;
 }
-.activ_1 {  
+
+.activ_1 {
     display: flex;
     flex-direction: column;
 }
-.activ_2
-{
+
+.activ_2 {
     margin: 1px;
     width: 350px;
 }
+
 .verti_marseille_1 {
     display: block;
     border-radius: 20px;
     box-shadow: 5px 5px 5px 5px #F2F2F2;
     margin-top: 0px;
     height: 450px;
-    transform: scale(1);
-    transition: 400ms;
-    font-size: 13px; 
+    font-size: 13px;
 }
+
 .nomacti {
     display: block;
     font-size: 15px;
     margin-left: 15px;
     font-weight: bold;
 }
+
 .activ_3 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .hori_marseille_1 {
@@ -373,8 +409,9 @@ nav a:hover {
     box-shadow: 5px 5px 5px 5px #F2F2F2;
     margin-bottom: 20px;
     font-size: 13px;
-    height: 250px;
+    padding-bottom: 1px;
 }
+
 .hori_marseille_2 {
     border-radius: 20px;
     box-shadow: 5px 5px 5px 5px #F2F2F2;
@@ -382,13 +419,14 @@ nav a:hover {
     height: 175px;
     font-size: 13px;
 }
+
 .verti_marseille_3 {
     border-radius: 20px;
     box-shadow: 5px 5px 5px 5px #F2F2F2;
-    margin-bottom: 0px;
     font-size: 13px;
-    padding-bottom:1px ;
+    padding-bottom: 1px;
 }
+
 .hori_marseille_4 {
     background-color: white;
     display: flex;
@@ -398,6 +436,7 @@ nav a:hover {
     flex-direction: column;
     font-size: 13px;
 }
+
 .hori_marseille_5 {
     background-color: white;
     display: flex;
@@ -405,22 +444,25 @@ nav a:hover {
     box-shadow: 5px 5px 5px 5px #F2F2F2;
     border-radius: 20px;
     font-size: 13px;
-    height: 175px;
+    height: 185px;
 }
+
 .horizontal_1 {
-    width:350px;
+    width: 350px;
     height: 190px;
     object-fit: cover;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
 }
+
 .horizontal_2 {
     width: 350px;
-    height: 120px;
+    height: 130px;
     object-fit: cover;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
 }
+
 .vertical {
     height: 400px;
     width: 300px;
@@ -428,19 +470,19 @@ nav a:hover {
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
 }
+
 /*footer */
 footer {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
-    background: #f2f2f2; 
+    background: #f2f2f2;
 }
-#a_propos {  
+
+#a_propos {
     margin-left: 50px;
 }
+
 #Nos_hebergements {
     margin-left: 50px;
-}
-#Assistance {
-    margin-left: 0px;
 }
